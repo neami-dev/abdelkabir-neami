@@ -1,12 +1,12 @@
-
- 
+import Header from "./components/shared/header/Header"
+import './App.css'
 
 function App() {
   
 
   return (
     <>
-      <h2>hello from docker</h2>
+      <Header/>
     </>
   )
 }

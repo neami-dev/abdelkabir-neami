@@ -1,6 +1,7 @@
 import Header from "./components/shared/header/Header"
 import './App.css'
 import Home from "./components/shared/home/Home"
+import About from "./components/shared/about/About"
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <main className="main">
         <Home/>
+        <About/>
       </main>
     </>
   )

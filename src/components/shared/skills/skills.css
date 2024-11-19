@@ -64,7 +64,7 @@
         grid-template-columns: 1fr;
     }
     .skills__content{
-        padding: 1.5rem;
+        padding: 1.5rem .75rem;
     }
   }
   

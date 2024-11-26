@@ -5,6 +5,7 @@ import About from "./components/shared/about/About"
 import Skills from "./components/shared/skills/Skills"
 import Services from "./components/shared/services/Services"
 import Qualification from "./components/shared/qualification/Qualification"
+import Contact from "./components/shared/contact/Contact"
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <Skills/>
         <Services/>
         <Qualification/>
+        <Contact/>
       </main>
     </>
   )

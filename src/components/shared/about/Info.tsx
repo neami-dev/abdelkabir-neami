@@ -4,7 +4,7 @@ export default function Info() {
             <div className="about__box">
                 <i className="bx bx-award about__icon"></i>
                 <h3 className="about__title">Experince</h3>
-                <span className="about__subtitle">3 Years of Working</span>
+                <span className="about__subtitle">1 Years of Working</span>
             </div>
             <div className="about__box">
                 <i className="bx bx-briefcase-alt about__icon"></i>

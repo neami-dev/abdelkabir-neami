@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./services.css";
 
 export default function Services() {
-    const [toggleState, setToggleState] = useState<Number>(0);
+    const [toggleState, setToggleState] = useState<number>(0);
 
     return (
         <section className="services section " id="services">
@@ -67,12 +67,19 @@ export default function Services() {
                                         seamless user experiences.
                                     </p>
                                 </li>
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">
+                                        Building real-time features such as live
+                                        notifications, chat, and updates.
+                                    </p>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div className="services__content">
+                {/* <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon"></i>
                         <h3 className="services__title">UI/UX Design</h3>
@@ -132,9 +139,9 @@ export default function Services() {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="services__content">
+                {/* <div className="services__content">
                     <div>
                         <i className="uil uil-comments-alt services__icon"></i>
                         <h3 className="services__title">Consulting</h3>
@@ -194,7 +201,7 @@ export default function Services() {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     );

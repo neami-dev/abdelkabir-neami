@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./qualification.css";
 export default function Qualification() {
-    const [toggleState, setToggleState] = useState<Number>(1);
+    const [toggleState, setToggleState] = useState<number>(1);
     return (
         <section className="qualification section">
             <h2 className="section__title">Qualification</h2>
@@ -142,7 +142,7 @@ export default function Qualification() {
                                 <span className="qualification__line"></span>
                             </div>
                         </div> */}
-                        {/* <div className="qualification__data">
+                        <div className="qualification__data">
                             <div></div>
                             <div>
                                 <span className="qualification__rounder"></span>
@@ -150,17 +150,17 @@ export default function Qualification() {
                             </div>
                             <div>
                                 <h3 className="qualification__title">
-                                    UX Designer
+                                    Full stack developer
                                 </h3>
                                 <span className="qualification__subtitle">
-                                    Apple Inc - Spain
+                                    SALVIA
                                 </span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt qualification__icon"></i>{" "}
-                                    2022 - personal
+                                    December 2024 - Present
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
 
                         <div className="qualification__data">
                             <div>

@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./services.css";
 
 export default function Services() {
-    const [toggleState, setToggleState] = useState<Number>(0);
+    const [toggleState, setToggleState] = useState<number>(0);
 
     return (
         <section className="services section " id="services">
@@ -37,34 +37,31 @@ export default function Services() {
                                 Web Development
                             </h3>
                             <p className="services__modal-description">
-                                I have experience providing high-quality web
-                                development services. I focus on creating
-                                interactive, user-friendly, and responsive web
-                                applications that meet your business needs.
+                                I specialize in building high-quality,
+                                user-friendly, and responsive web applications
+                                tailored to your business needs — from frontend
+                                design to backend logic.
                             </p>
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Developing responsive and interactive
-                                        websites that are optimized for all
-                                        devices.
+                                        Developing fast, responsive websites
+                                        optimized for all devices and browsers.
                                     </p>
                                 </li>
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Building robust backend systems and
-                                        RESTful APIs using the latest
-                                        technologies.
+                                        Building secure and scalable backends
+                                        with RESTful APIs using modern stacks.
                                     </p>
                                 </li>
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Ensuring smooth integration between the
-                                        front-end and back-end, creating
-                                        seamless user experiences.
+                                        Integrating frontend and backend
+                                        smoothly for seamless and intuitive UX.
                                     </p>
                                 </li>
                             </ul>
@@ -75,7 +72,9 @@ export default function Services() {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon"></i>
-                        <h3 className="services__title">UI/UX Design</h3>
+                        <h3 className="services__title">
+                            API Development & Integration
+                        </h3>
                     </div>
                     <span
                         className="services__button"
@@ -97,36 +96,34 @@ export default function Services() {
                                 onClick={() => setToggleState(0)}
                             ></i>
                             <h3 className="services__modal-title">
-                                UI/UX Design
+                                API Development & Integration
                             </h3>
                             <p className="services__modal-description">
-                                I specialize in creating beautiful,
-                                user-centered designs that improve usability and
-                                provide delightful experiences for users.
+                                Designing and building RESTful APIs optimized
+                                for performance and scalability, such as
+                                CountryIP.com public API.
                             </p>
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Designing user interfaces that are both
-                                        aesthetically pleasing and easy to
-                                        navigate.
+                                        Creating APIs that provide detailed
+                                        geo-location, languages, and currency
+                                        data.
                                     </p>
                                 </li>
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Conducting user research to ensure
-                                        designs meet the needs and expectations
-                                        of the target audience.
+                                        Ensuring high availability and low
+                                        latency for public-facing services
                                     </p>
                                 </li>
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Creating wireframes, prototypes, and
-                                        interactive mockups to showcase design
-                                        ideas effectively.
+                                        Integrating third-party services and
+                                        APIs to enrich functionality.
                                     </p>
                                 </li>
                             </ul>
@@ -137,7 +134,9 @@ export default function Services() {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-comments-alt services__icon"></i>
-                        <h3 className="services__title">Consulting</h3>
+                        <h3 className="services__title">
+                            Corporate Website & SEO
+                        </h3>
                     </div>
                     <span
                         className="services__button"
@@ -159,36 +158,33 @@ export default function Services() {
                                 onClick={() => setToggleState(0)}
                             ></i>
                             <h3 className="services__modal-title">
-                                Consulting
+                                Corporate Website & SEO
                             </h3>
                             <p className="services__modal-description">
-                                I provide expert advice and strategy to help
-                                businesses leverage technology for better
-                                performance and growth.
+                                Building responsive, SEO-friendly corporate
+                                websites that enhance brand presence and client
+                                engagement, such as ABX Group.
                             </p>
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Offering guidance on technology stack
-                                        selection and system architecture
-                                        design.
+                                        Creating responsive layouts optimized
+                                        for all devices.
                                     </p>
                                 </li>
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Advising on digital transformation
-                                        strategies and helping businesses adapt
-                                        to the digital landscape.
+                                        Optimizing content and structure for
+                                        better search engine rankings.
                                     </p>
                                 </li>
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Providing solutions for performance
-                                        optimization, scalability, and security
-                                        of web applications.
+                                        Improving user experience and
+                                        accessibility.
                                     </p>
                                 </li>
                             </ul>

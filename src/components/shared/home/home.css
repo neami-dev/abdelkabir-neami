@@ -51,7 +51,7 @@
     font-weight: var(--font-normal);
 }
 .home__img {
-    background: url(../../../assets/photo.png);
+    background: url(/photo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

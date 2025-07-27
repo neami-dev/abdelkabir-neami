@@ -55,9 +55,9 @@ export default function Data() {
             </h1>
             <h3 className="home__subtitle">Fullstack developer</h3>
             <p className="home__description">
-                I'm a passionate full-stack developer based in Maroco, Safi,
-                dedicated to creating impactful and user-focused digital
-                solutions.
+                I'm a passionate Full-Stack Developer based in Safi, Morocco —
+                dedicated to building impactful, user-centered digital
+                experiences.
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello

@@ -35,10 +35,10 @@ export default function Contact() {
                             <i className="bx bx-mail-send contact__card-icon"></i>
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">
-                                User@gmail.com
+                                abdkabirneami@gmail.com
                             </span>
                             <a
-                                href="mailto:examplemail@gmail.com.com"
+                                href="mailto:abdkabirneami@gmail.com"
                                 className="contact__button"
                             >
                                 Write me i.
@@ -49,24 +49,10 @@ export default function Contact() {
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">
-                                999-888-777
+                                06 41 52 28 95
                             </span>
                             <a
-                                href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!"
-                                className="contact__button"
-                            >
-                                Write me i.
-                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-                            </a>
-                        </div>
-                        <div className="contact__card">
-                            <i className="bx bxl-messenger contact__card-icon"></i>
-                            <h3 className="contact__card-title">Messenger</h3>
-                            <span className="contact__card-data">
-                                user.fb123
-                            </span>
-                            <a
-                                href="https://m.me/crypticalcoder"
+                                href="https://api.whatsapp.com/send?phone=0641522895&text=Hello, more information!"
                                 className="contact__button"
                             >
                                 Write me i.

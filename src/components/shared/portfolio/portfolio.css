@@ -19,7 +19,7 @@
 }
 .img-box img {
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 .portfolio__container .card {
     display: flex;

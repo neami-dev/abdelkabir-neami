@@ -11,10 +11,10 @@ export default function Contact() {
 
         emailjs
             .sendForm(
-                "service_a1roonf",
-                "template_6j77w6r",
+                "service_82mes3o",
+                "template_yuucex9",
                 form.current,
-                "O2D3oYIQTP6Jad7ON"
+                "rzg2uc5qXl_tNZtBB"
             )
             .then(() => {
                 if (form.current) {

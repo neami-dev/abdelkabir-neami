@@ -24,7 +24,7 @@
 }
 .contact__card-icon {
     font-size: 2rem;
-    color: var(--title-color);
+    color: var(--primary-color);
     margin-bottom: var(--mb-0-25);
 }
 .contact__card-title,

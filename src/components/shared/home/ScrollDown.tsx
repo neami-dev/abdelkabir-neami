@@ -23,7 +23,7 @@ export default function ScrollDown() {
                         d="M123.359,79.775l0,72.843"
                         style={{
                             fill: "none",
-                            stroke: "var(--title-color)",
+                            stroke: "var(--primary-color)",
                             strokeWidth: 20,
                         }}
                     />

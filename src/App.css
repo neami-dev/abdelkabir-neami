@@ -1,7 +1,8 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
 /*=============== VARIABLES CSS ===============*/
+@import "tailwindcss";
+
 :root {
   --header-height: 3rem;
 
@@ -14,6 +15,12 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+  /* --primary-color: #22c55e; */
+  /* --primary-color-dark: #1aac4f; */
+  --primary-color: #9966ff;
+  --primary-color-dark: #7a4de6;
+  --accent-light:#F0EFED;
+  --border-color:#E5E4E1;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -64,11 +71,7 @@
 }
 
 /*=============== BASE ===============*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+ 
 
 html {
   scroll-behavior: smooth;
@@ -103,7 +106,7 @@ a {
 
 button {
   cursor: pointer;
-  border: none;
+   
   outline: none;
 }
 
@@ -148,15 +151,17 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--primary-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  padding: 0.9rem 2rem;
+  border-radius: 5rem;
   font-weight: var(--font-medium);
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
 }
 
 .button__icon {
@@ -167,13 +172,16 @@ img {
   display: inline-flex;
   align-items: center;
 }
-
+::selection {
+  background-color: #7a4de6;
+  color: white;
+}
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
   .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    padding-left: var(--mb-1-5);
+    padding-right: var(--mb-1-5);
   }
 
   .button {
@@ -211,7 +219,7 @@ img {
   }
 
   .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
+    padding-left: var(--mb-1);
+    padding-right: var(--mb-1);
   }
 }

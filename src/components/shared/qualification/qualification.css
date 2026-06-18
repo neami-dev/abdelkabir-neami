@@ -19,6 +19,7 @@
 .qualification__icon {
     font-size: 1.8rem;
     margin-right: var(--mb-0-25);
+    color: var(--primary-color);
 }
 .qualification__avitve {
     color: var(--title-color-dark);
@@ -75,13 +76,6 @@
     }
 }
 
-/* For medium devices */
-@media screen and (max-width: 768px) {
-    .qualification__container {
-        margin-left: var(--mb-1-5);
-        margin-right: var(--mb-1-5);
-    }
-}
 
 @media screen and (max-width: 576px) {
     .qualification__sections{

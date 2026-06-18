@@ -10,15 +10,15 @@ export default function About() {
             <span className="section__subtitle">My introduction</span>
 
             <div className="about__container container grid">
-                <img src="./photo2.jpg" alt="" className="about__img" />
+                {/* <img src="./photo2.jpg" alt="" className="about__img" /> */}
                 <div className="about__data">
-                    <Info />
+                    {/* <Info /> */}
                     <p className="about__description">
-                        I'm Abdkabir Neami, a Full-Stack Developer from Safi,
-                        Morocco. I enjoy building web applications that are
-                        scalable, secure, and user-focused. I'm always learning
-                        and love turning ideas into real digital products.
+                        I’m <span>Abdkabir Neami</span>, a <span>Full-Stack Developer</span> from <span>Morocco</span>. I specialize in helping startups and businesses turn ideas into reality with fast, scalable, and user-focused web applications built with modern technologies like Next.js and React.
                     </p>
+                    <p className="about__description">I enjoy building web applications that are scalable, secure, and designed with real business needs in mind, not just code, but complete digital solutions that create value.</p>
+                    <p className="about__description">With over <span>a year of hands-on experience at Salvia Company</span>, I have built and shipped real-world applications including <span>SaaS platforms, dashboards, internal management systems, and modern landing pages</span> using Next.js, React, Node.js, TypeScript, MongoDB, and PostgreSQL.</p>
+                    <p className="about__description">I’m always learning and improving my craft, and I enjoy transforming ideas into clean, functional, and production-ready digital products.</p>
                     <a download="" href={CV} className="button button--flex">
                         Download CV{" "}
                         <svg

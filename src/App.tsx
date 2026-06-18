@@ -7,6 +7,7 @@ import Services from "./components/shared/services/Services";
 import Qualification from "./components/shared/qualification/Qualification";
 import Contact from "./components/shared/contact/Contact";
 import PortfolioSection from "./components/shared/portfolio/Portfolio";
+import Projects from "./components/shared/portfolio/Projects";
 
 function App() {
     return (
@@ -18,7 +19,8 @@ function App() {
                 <Skills />
                 <Services />
                 <Qualification />
-                <PortfolioSection />
+                {/* <PortfolioSection /> */}
+                <Projects/>
                 <Contact />
             </main>
         </>

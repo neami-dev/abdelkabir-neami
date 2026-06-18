@@ -1,7 +1,7 @@
 import "./about.css";
 
 import CV from "/abdelkabir-neami-cv.pdf";
-import Info from "./Info";
+ 
 
 export default function About() {
     return (

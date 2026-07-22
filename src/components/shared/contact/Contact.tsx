@@ -35,10 +35,10 @@ export default function Contact() {
                             <i className="bx bx-mail-send contact__card-icon"></i>
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">
-                                abdkabirneami@gmail.com
+                                neami.abdelkabir@gmail.com
                             </span>
                             <a
-                                href="mailto:abdkabirneami@gmail.com"
+                                href="mailto:neami.abdelkabir@gmail.com"
                                 className="contact__button"
                             >
                                 Write me i.
@@ -49,7 +49,7 @@ export default function Contact() {
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">
-                                06 41 52 28 95
+                                +212 641 522 895
                             </span>
                             <a
                                 href="https://api.whatsapp.com/send?phone=0641522895&text=Hello, more information!"

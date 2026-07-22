@@ -24,6 +24,7 @@ export default function Projects() {
       });
 
   }, [])
+  console.log(isLoading);
 
 
 
@@ -78,9 +79,9 @@ export default function Projects() {
 
   return (
     <main className="min-h-screen w-full flex justify-center px-4 md:px-8 lg:px-16">
-      <div className="max-w-5xl mx-auto ">
+      <div className="w-full max-w-5xl mx-auto ">
         {/* Header */}
-        <div className="flex items-start justify-between  py-10">
+        <div className="flex w-full justify-between  py-10">
           <div className="flex-1">
 
             <h1 className="text-4xl  text-center font-semibold text-[#2a2520] mt-2">
@@ -113,7 +114,9 @@ export default function Projects() {
         </div>
 
 
-        {isLoading ?? <img src="./loading.svg" />}
+        <div className="flex justify-center items-center">
+          {isLoading && <img className="w-42 xl:w-fit" src="./loading.svg" /> }
+        </div>
         {/* Project Card */}
         {projects.length > 0 ? <div
           className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 transition-all duration-300 ease-out bg-white rounded-2xl ${isAnimating
@@ -174,7 +177,7 @@ export default function Projects() {
             </div>
 
             {/* View Project Link */}
-            <a
+            <a target="_blank"
               href={currentProject.link}
               className="inline-flex items-center text-[#2a2520] font-medium group/link hover:text-[#5a5550] transition-colors duration-200 border-b  pb-1 w-fit"
 

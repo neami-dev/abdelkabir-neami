@@ -9,41 +9,51 @@ interface Portfolio {
 
 const Portfolio: Portfolio[] = [
   {
-    imgSrc: "/curepase-home.png",
-    title: "Healthcare platform",
-    tags: ["Next.js", "TypeScript", "appwrite CMS"],
-    projectLink: "https://carepluse-jctv.vercel.app",
+    imgSrc: "/abxgroup.png",
+    title: "ABX Group Website",
+    tags: ["Next.js", "Tailwind"],
+    projectLink: "https://abxgroupp.vercel.app/fr",
+  },
+  {
+    imgSrc: "/mercaluz.png",
+    title: "Abda Water Industry",
+    tags: ["React.js", "Tailwind"],
+    projectLink: "https://mercaluz-net.vercel.app/fr",
+  },
+  {
+    imgSrc: "/abdawater.png",
+    title: "Abda Water Industry",
+    tags: ["React.js", "Tailwind"],
+    projectLink: "https://mercaluz-net.vercel.app/fr",
   },
   {
     imgSrc: "/abx_screenshot.png",
     title: "System mangement fishing",
     tags: ["Next.js", "TypeScript", "Tailwind"],
-    projectLink: "",
+    projectLink: "https://fish-factory-erp.vercel.app/",
   },
   {
-    imgSrc: "/abxgroup.png",
-    title: "ABX Group Website",
-    tags: ["Next.js", "Tailwind"],
-    projectLink: "https://abxgroup.ma",
+    imgSrc: "/curepase-home.png",
+    title: "Healthcare platform",
+    tags: ["Next.js", "TypeScript", "appwrite CMS"],
+    projectLink: "https://carepluse-jctv.vercel.app/",
   },
   {
     imgSrc: "/rasd.png",
     title: "Rasd - Real Estate Platform",
     tags: ["Next.js", "Tailwind"],
-    projectLink: "https://rasd.goto.ma",
+    projectLink: "https://monit.ma/",
   },
+   
+   
   {
     imgSrc: "/countryIp.png",
     title: "Country IP - IP Geolocation",
     tags: ["React", "MongoDB", "Express"],
     projectLink: "https://countryip.com",
   },
-  {
-    imgSrc: "/abdawater.png",
-    title: "Abda Water Industry",
-    tags: ["React.js", "Tailwind"],
-    projectLink: "https://abdawaterindustry.com/",
-  },
+
+   
   {
     imgSrc: "/evently.png",
     title: "Evently - Events Platform",
